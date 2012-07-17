@@ -2,7 +2,7 @@
   "name": "only",
   "version": "0.0.1",
   "description": "return whitelisted properties of an object",
-  "keywords": [],
+  "keywords": ["utility", "util", "object", "whitelist"],
   "author": "TJ Holowaychuk <tj@vision-media.ca>",
   "dependencies": {},
   "devDependencies": {
