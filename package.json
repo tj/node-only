@@ -1,0 +1,13 @@
+{
+  "name": "only",
+  "version": "0.0.1",
+  "description": "return whitelisted properties of an object",
+  "keywords": [],
+  "author": "TJ Holowaychuk <tj@vision-media.ca>",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "main": "index"
+}
