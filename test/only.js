@@ -26,4 +26,10 @@ describe('only(obj, keys)', function(){
       only(obj, 'name email last').should.eql(expected);
     })
   })
+
+  describe('when obj is missing', function(){
+    it('should default', function(){
+      only(null, 'foo').should.eql({ foo: undefined });
+    })
+  })
 })
