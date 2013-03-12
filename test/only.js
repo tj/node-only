@@ -27,9 +27,7 @@ describe('only(obj, keys)', function(){
     })
   })
 
-  describe('when obj is missing', function(){
-    it('should default', function(){
-      only(null, 'foo').should.eql({ foo: undefined });
-    })
+  it('should omit undefineds', function(){
+    only({}, 'foo bar baz').should.eql({});
   })
 })
