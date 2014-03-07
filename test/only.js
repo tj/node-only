@@ -30,4 +30,8 @@ describe('only(obj, keys)', function(){
   it('should omit undefineds', function(){
     only({}, 'foo bar baz').should.eql({});
   })
+  
+  it('should include nulls', function(){
+    only({ foo: null }, 'foo bar baz').should.eql({ foo: null });
+  })
 })
