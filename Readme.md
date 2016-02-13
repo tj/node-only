@@ -22,6 +22,11 @@ var obj = {
 var user = only(obj, 'name last email');
 ```
 
+You can also use array form:
+```js
+var user = only(obj, ['name', 'last', 'email']);
+```
+
 yields:
 
 ```js
@@ -32,7 +37,7 @@ yields:
 }
 ```
 
-## License 
+## License
 
 (The MIT License)
 
