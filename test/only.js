@@ -1,5 +1,5 @@
-
 var only = require('..');
+require('should');
 
 var obj = {
   name: 'tobi',
