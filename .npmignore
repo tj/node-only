@@ -1,4 +1,5 @@
+examples
 support
 test
-examples
+Makefile
 *.sock
